@@ -16,6 +16,7 @@ I know these days we always talk about building scalable and robust platforms. S
    In this case, it would be better to use a RabbitMQ producer/consumer model (or pub/sub) to process those responses periodically without putting too much burden on the system. This approach is also an effective way to improve scalability.
   
 2) Robust
+
    All companies, even start up companies always propose robust, robust, robust.
    But can robust implement easily? I think NO.
    Let me list 2 simple and significant examples. 
