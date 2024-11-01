@@ -56,4 +56,5 @@ I know these days we always talk about building scalable and robust platforms. S
     - Create microservices using technologies like Kafka, RabbitMQ.
     - For database optimization, I prioritize query processing speed and regularly examine performance using tools such as EXPLAIN ANALYZE during development.
 
-Thanks for reading and give me your feedback about my opinion
+If you agree with my opinion, please give me stars.
+Thanks for reading and give me your feedback about my opinion.
