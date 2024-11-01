@@ -3,7 +3,7 @@
 
 I know these days we always talk about building scalable and robust platforms. So, how can we achieve a scalable and robust backend system? Here are my thoughts based on my experience developing a successful online SaaS platform.
 
- 1) Scalable
+1) Scalable
 
    What does scalable mean? Let's say your platform becomes very popular, attracting many users. For example, you might have 10,000 concurrent users.
    Will your server be able to handle that? Definitely not. In this case, we need to scale the server horizontally. However, there is a problem: when we have multiple servers, we face session inconsistency for WebSocket connections and unnecessary duplicated process execution.
@@ -15,7 +15,7 @@ I know these days we always talk about building scalable and robust platforms. S
 
    In this case, it would be better to use a RabbitMQ producer/consumer model (or pub/sub) to process those responses periodically without putting too much burden on the system. This approach is also an effective way to improve scalability.
   
-  2) Robust
+2) Robust
    All companies, even start up companies always propose robust, robust, robust.
    But can robust implement easily? I think NO.
    Let me list 2 simple and significant examples. 
@@ -55,3 +55,5 @@ I know these days we always talk about building scalable and robust platforms. S
     - Implement rate limiting to manage API usage.
     - Create microservices using technologies like Kafka, RabbitMQ.
     - For database optimization, I prioritize query processing speed and regularly examine performance using tools such as EXPLAIN ANALYZE during development.
+
+Thanks for reading and give me your feedback about my opinion
